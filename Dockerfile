@@ -1,5 +1,5 @@
 FROM node
-MAINTAINER ryan@hoegg.software
+LABEL maintainer="ryan@hoegg.software"
 
 RUN apt-get update && apt-get install -y jq \
  && rm -rf /var/lib/apt/lists/*
